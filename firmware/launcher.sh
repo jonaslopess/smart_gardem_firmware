@@ -5,8 +5,7 @@ cd /
 cd home/pi/Desktop/horta
 git pull
 cd home/pi/Desktop/horta/firmware
-sudo python3 horta-coleta-dados.py &
-cd home/pi/Desktop/horta/dashboard
-sudo ng serve &
+pip install -r requirements.txt
+sudo python3 main.py &
 cd /
 
