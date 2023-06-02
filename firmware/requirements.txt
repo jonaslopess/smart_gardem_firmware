@@ -1,0 +1,4 @@
+web3==6.4.0
+numpy==1.24.3
+scikit-fuzzy==0.4.2
+matplotlib==3.7.1
