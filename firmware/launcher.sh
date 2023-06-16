@@ -1,11 +1,11 @@
 #!/bin/sh
 #launcher.sh
+sleep 60
 
-cd /
-cd home/pi/Desktop/horta
+cd /home/pi/Desktop/horta
 git pull
-cd home/pi/Desktop/horta/firmware
-pip install -r requirements.txt
+cd /home/pi/Desktop/horta/firmware
+pip3 install -r requirements.txt
 sudo python3 main.py &
 cd /
 
